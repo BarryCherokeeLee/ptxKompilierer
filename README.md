@@ -26,3 +26,6 @@ a compiler supporting ptx converting to riscv vector extension
 1. vector multiply add ptx kernel test.....
     ./bin/ptx_compiler ../test/vector_mul_add.ptx vector_mul_add.ll
 
+### TODO
+1. Tensor-related PTX, from wmma and wgmma to RISCV tensor extensions.
+2. RISCV SIMT extensions compatible.
